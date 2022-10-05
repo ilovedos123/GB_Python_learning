@@ -1,3 +1,3 @@
-list = [5, 6, 7, 8, 9]
-list.insert(0,3)
-print(list)
+import math
+print(math.sqrt(9))
+print(9 ** 0.5)
