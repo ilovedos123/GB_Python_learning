@@ -1,0 +1,2 @@
+Результат кодирования строки AAAAAAFFDDCCCCCCCAAEEEEEE: 6A2F2D7C2A6E
+Результат декодирования строки 6A2F2D7C2A6E: AAAAAAFFDDCCCCCCCAAEEEEEE
