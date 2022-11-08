@@ -1,13 +1,12 @@
-def open_base(file_name):
-    file = open(file_name, "r", encoding="utf-8-sig")
-    uni_base = file.readlines()
-    return uni_base
+# -*- mode: python ; coding: utf-8 -*-
+import telebot
+from telebot import types
 
-print(open_base("test_base.csv"))
 
-def open_base_2(file_name):
-    with open(file_name, "r", encoding='utf-8-sig') as file:
-        uni_base = file.readlines()
-    return uni_base
+bot = telebot.TeleBot('5769693306:AAHDPx-_pcLREaLJOv48PoMpwmjToRQA_L8')
 
-print(open_base_2("test_base.csv"))
+@bot.message_handler(commands=['start'])
+def start(message):
+    bot.send_message(message.chat.id, message.from_user.first_name)
+
+bot.polling(none_stop=True, interval=0)
