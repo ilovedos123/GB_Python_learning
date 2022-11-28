@@ -9,7 +9,7 @@ def export_telephone_book(phone_book):
 
 def get_telephone_book(number_of_rows):
         telephone_book = ''
-        for i in range(1, number_of_rows*1000 + 1):
+        for i in range(1, number_of_rows + 1):
             telephone_book = telephone_book + f'{i} {generator.get_name()} {generator.get_surname()} {generator.get_birthdate()} {generator.get_job_city()} {generator.get_phone_number()}\n'
         return telephone_book
 

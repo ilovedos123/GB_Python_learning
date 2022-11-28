@@ -10,7 +10,7 @@ while user_choise > 2 or user_choise < 1 :
     print('Выберите вариант 1 или 2')
     user_choise = int(input('Введите число от 1 до 2: '))
 if user_choise == 1:
-    N = int(input('Введите количество тысяч строк: '))
+    N = int(input('Введите количество строк: '))
     t_book = telephone_book.get_telephone_book(N)
     print(t_book)
     print('Если необходимо сделать экспорт данного списка в файл выберите 1 если нет, 2')
