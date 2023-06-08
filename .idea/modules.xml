@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../GeekBrains_Math_stat/.idea/GeekBrains_Math_stat.iml" filepath="$PROJECT_DIR$/../GeekBrains_Math_stat/.idea/GeekBrains_Math_stat.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/GeekBrains_learning.iml" filepath="$PROJECT_DIR$/.idea/GeekBrains_learning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Ocean/.idea/Ocean.iml" filepath="$PROJECT_DIR$/../Ocean/.idea/Ocean.iml" />
       <module fileurl="file://$PROJECT_DIR$/../pythonProject1/.idea/pythonProject1.iml" filepath="$PROJECT_DIR$/../pythonProject1/.idea/pythonProject1.iml" />
     </modules>
   </component>

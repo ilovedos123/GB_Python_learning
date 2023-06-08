@@ -7,5 +7,7 @@
     <orderEntry type="jdk" jdkName="Python 3.10" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="pythonProject1" />
+    <orderEntry type="module" module-name="Ocean" />
+    <orderEntry type="module" module-name="GeekBrains_Math_stat" />
   </component>
 </module>
